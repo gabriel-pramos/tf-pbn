@@ -154,7 +154,7 @@ int main()
             target_radius = target_life / 1000;
             if (target_radius <= 1)
                 new_target();
-            target_life -= 50;
+            target_life -= 25;
             // _delay_ms(1);
         }
     }
